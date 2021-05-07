@@ -13,6 +13,7 @@ body{
     top:0;
     bottom:0;
     background: linear-gradient(#ff0000 0%,#253bcc 100%);
+    z-index:7;
 }
 .welcome_inner{
     top: 200px;
@@ -32,3 +33,32 @@ p{
     padding: 50px;
 }
 
+#menu{
+    list-style:none;
+    position:fixed;
+    top:10px;
+    right:20px;
+    z-index: 8;
+    cursor: pointer;
+}
+
+.5{
+    float: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 9px;
+    padding-bottom: 9px;
+    font-size:20px;
+}
+
+.5:hover{
+    background-color: white;
+    
+    
+    
+}
+
+#name{
+    font-family: 'Itim', cursive;
+    font-size: 30px;
+}

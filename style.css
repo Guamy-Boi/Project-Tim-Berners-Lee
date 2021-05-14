@@ -1,64 +1,42 @@
 body{
-    text-align:center;
-    padding-top:700px;
+  text-align:center;
+  background:linear-gradient(
+  
+  #E1BEE7 0%,#90CAF9 100%);
+  background-repeat:no-repeat
+  
 }
-.Tim{
-    border-radius: 50%;
-    width: 180px;
-    }
-#welcome{
-    position:absolute;
-    left:0;
-    right:0;
-    top:0;
-    bottom:0;
-    background: linear-gradient(#ff0000 0%,#253bcc 100%);
-    z-index:7;
+img
+{
+  width:300px;
+} 
+
+h1{
+  text-shadow:2px 2px #F8BBD0;
+  font-size:35px;
 }
-.welcome_inner{
-    top: 200px;
-    position:relative;
+
+p{
+  font-size:25px;
+  color:black;
+  font-weight:bold;
+  
+  
+}
+h2{
+  font-size:20px;
+  color:#1A237E;
 }
 .line{
-    height: 6px;
-    width:70px;
-    background-color: green;
-    margin: auto;
-}
-p{
-    max-width: 500px;
-    margin: 25px auto;
-    }
-#info_tim{
-    padding: 50px;
-}
-
-#menu{
-    list-style:none;
-    position:fixed;
-    top:10px;
-    right:20px;
-    z-index: 8;
-    cursor: pointer;
-}
-
-.5{
-    float: left;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 9px;
-    padding-bottom: 9px;
-    font-size:20px;
-}
-
-.5:hover{
-    background-color: white;
+  height:6px;
+  background-color:black;
+  width:70px;
+  margin:8px auto;
     
-    
-    
+   
 }
-
-#name{
-    font-family: 'Itim', cursive;
-    font-size: 30px;
+#bio{
+  padding:20px;
+  font-size:18;
+  text-align:center;
 }
